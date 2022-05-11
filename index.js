@@ -1,5 +1,5 @@
-const gtts = require('node-gtts');
-const path = require('path');
+var gtts = require('node-gtts');
+var path = require('path');
 const { Telegraf } = require('telegraf')
 const { Markup } = require('telegraf')
 const config = require('./config.json')
@@ -40,7 +40,7 @@ function help(ctx) {
     const msg = `
 <b>Text-To-Speech</b>
 <b>Comand:</b> /tts (language code) (your text)
-<b>Usage:</b /tts en hello everyone
+<b>Usage:</b> /tts en hello everyone
 
 
 <b>Almost all langauges code are supported</b>
@@ -62,7 +62,7 @@ Tranlates using google text-to-speech.
 
 Written in <b>Node.JS</b>
 
-Created With Love By <a href='https://telegram.dog/SastaDev'>Sasta Dev</a>
+Created With Love By <a href='https://telegram.dog/SastaDev'>Sasta Dev</a>.
 
 Thanks To <a href='https://github.com/telegraf/telegraf'>Telegraf</a> & <a href='https://github.com/thiennq/node-gtts'>node-gtts</a>
 
