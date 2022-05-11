@@ -8,4 +8,4 @@
 
 <i>It can be deployed on github workflow.</i>
 
-© <a href='https://telegram.dog/SastaNetwork'>Sasta Network 2022.
+© <a href='https://telegram.dog/SastaNetwork'>Sasta Network</a> 2022.
