@@ -1,11 +1,11 @@
 # Text-To-Speech-Telegram-Bot
 
-A simple google text-to-speech telegram bot written in node.js.
-Link: <a href='https://telegram.dog/SastaTTSBot'>Sasta TTS Bot</a>
+<b>A simple google text-to-speech telegram bot written in node.js.</b>
+<p><b>Telegram Bot Link:</b> <a href='https://telegram.dog/SastaTTSBot'>Sasta TTS Bot</a>
 
-Help Support Group: <a href='https://telegram.dog/HelpSupportChat'>Help Support Chat</a>
-Updates in <a href='https://telegram.dog/SastaNetwork'>Sasta Network</a>
+<b>Help Support Group:</b> <a href='https://telegram.dog/HelpSupportChat'>Help Support Chat</a>
+<b>Updates in</b> <a href='https://telegram.dog/SastaNetwork'>Sasta Network</a>
 
-It can be deployed on github workflow.
+<i>It can be deployed on github workflow.</i>
 
 © <a href='https://telegram.dog/SastaNetwork'>Sasta Network 2022.
