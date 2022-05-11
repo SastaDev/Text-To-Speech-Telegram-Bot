@@ -1,5 +1,5 @@
-var gtts = require('node-gtts');
-var path = require('path');
+const gtts = require('node-gtts');
+const path = require('path');
 const { Telegraf } = require('telegraf')
 const { Markup } = require('telegraf')
 const config = require('./config.json')
