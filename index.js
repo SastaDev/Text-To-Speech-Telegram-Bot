@@ -54,7 +54,7 @@ function help(ctx) {
 }
 
 function about(ctx) {
-    const msgid = message.message_id
+    const msgid = ctx.message.message_id
     const msg = `
 <b>Text-To-Speech-Telegram-Bot</b>
 
@@ -75,6 +75,7 @@ Link to source code: https://github.com/SastaDev/Text-To-Speech-Telegram-Bot
 © <a href='https://telegram.dog/SastaDev'>Sasta Dev</a>.
 <a href='https://telegram.dog/SastaNetwork'>Sasta Network</a>, 2022-present.
     `
+    ctx.replyWithHTML(msg, {reply_to_message_id: msgid})
 }
 
 function added(ctx) {
